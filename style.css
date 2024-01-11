@@ -474,3 +474,36 @@
         font-size: 1.1rem;
     }
     /* footer-section-end */
+    .hide {
+        display: none;
+    }
+        /* responsib-work */
+        /* mobile-phone */
+@media screen and (max-width:576px) {
+    .footers {
+        /* display: flex; */
+        padding: 4px 10px;
+        margin-top: 20px;
+    }
+    .foot-message {
+        display: flex;
+        flex-direction: column;
+        line-height: 36px;
+        padding-top: 10px;
+        margin-top: 10px;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .foot-last  {
+        margin: 0px 6.5%;
+    }
+    .subscribe {
+        margin: 40px 6%;
+        margin-top: 20px;
+        background-color: rgba(230, 164, 175, 0.507);
+        align-items: center;
+        text-align: center;
+        padding: 25px 10px;
+        border-radius: 16px;
+    }
+}
