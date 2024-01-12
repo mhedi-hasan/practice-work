@@ -530,4 +530,19 @@
         display: grid;
         grid-template-columns: repeat(1,1fr);
     }
+    .holyday-title h1 {
+        font-family: inter;
+        font-size: 58px;
+        font-weight: 800;
+    }
+    .holyday-title{
+        margin-top: 74px;
+        padding: 5px 5%;
+    }
+    .holyday-galary{
+        padding: 10px 15px;
+    }
+    .holyday-2 img {
+        display: none;
+    }
 }
