@@ -545,4 +545,18 @@
     .holyday-2 img {
         display: none;
     }
+    #offer-section {
+        flex-direction: column;
+        padding: 10px 2%;
+    }
+    .offer-first-content{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .offer-last-content{
+        width: 100%;
+        text-align: center;
+    }
 }
