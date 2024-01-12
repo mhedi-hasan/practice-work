@@ -559,4 +559,9 @@
         width: 100%;
         text-align: center;
     }
+    .time-section{
+        font-size: 28px;
+        margin: 0px 1.5%;
+        padding: 50px 0;
+    }
 }
